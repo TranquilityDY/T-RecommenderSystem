@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="author" content="Andrea Berglund" />
+  <meta name="language" content="en-us" />
+  <title>D3-lab</title>
+  <style type="text/css" media="screen">
+   @import url( ./styles/main.css );
+ </style>
+ <link href='http://fonts.googleapis.com/css?family=Suranna' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Faster+One' rel='stylesheet' type='text/css'>
+</head> <!-- close head -->
+<body>
+  <div class="action-wrapper">
+   <p id="intro">
+      逢甲老師 
+    </p>
+	
+    <div class="movieContainer">
+
+      <div id="populateFilmInfoContainer">
+
+        <h2> Complete Film Info </h2>
+        <p class="bold">Headline: </p><p class="bold" id="headline"></p>
+        <br />
+        <p class="bold">Title: </p><p id="title"></p>
+        <br />
+        <p class="bold">Year: </p><p id="year"></p>
+        <br />
+        <p class="bold">Director: </p><p id="director"></p>
+        <br />
+        <p class="bold">Cinematography: </p><p id="cinematography"></p>
+        <br />
+        <p class="bold">Editing: </p><p id="editing"></p>
+        <br />
+        <p class="bold">Second unit director: </p><p id="secondUnitDirector"></p>
+        <br />
+        <p class="bold">Stunt Coordinator: </p><p id="stuntCoordinator"></p>
+        <br />
+        <p class="bold">Fight Choreographer: </p><p id="fightChoreographer"></p>
+        <br />
+        <p class="bold">Fight Coordinator: </p><p id="fightCoordinator"></p>
+        <br />
+        <p class="bold">Action Director: </p><p id="actionDirector"></p>
+        <br />
+        <p class="bold">Action Coordinator: </p><p id="actionCoordinator"></p>
+        <br />
+        <p class="bold">Action Choreography: </p><p id="actionChoreograhper"></p>
+        <br />
+        <p class="bold">Car Stunt Coordinator: </p><p id="carStuntCoordinator"></p>
+
+      </div> <!-- close populateFilmInfoContainer -->
+
+      <div id="movies"></div>
+
+    </div> <!-- close movieContainer -->
+  </div>
+  <script type="text/javascript" src="./resources/d3.js"></script>
+  <script type="text/javascript" src="./js/data-storage.js"></script>
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
+</body> <!-- close body -->
+</html> <!-- close html -->
